@@ -1,4 +1,6 @@
 import pandas as pd
+import matplotlib.pyplot as plt
+
 
 @pd.api.extensions.register_dataframe_accessor("missing")
 class MissingMethods:
